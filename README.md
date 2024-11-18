@@ -1,10 +1,11 @@
-
-# **VEXAA – Video EXtraction & Audio Assembly**
+# **VExAA – Video Extraction & Audio Assembly**
 
 ## **Project Overview**:
-**VEXAA** is a cloud-based solution designed for the extraction of audio from video files, enabling seamless video-to-audio conversion. This tool offers scalability, flexibility, and efficient deployment, allowing users to easily convert video files to audio formats for various applications such as podcasting, content creation, and archival purposes.
+
+**VExAA** is a cloud-based solution designed for the extraction of audio from video files, enabling seamless video-to-audio conversion. This tool offers scalability, flexibility, and efficient deployment, allowing users to easily convert video files to audio formats for various applications such as podcasting, content creation, and archival purposes.
 
 ## **Tech Stack**:
+
 - **Python**: Core programming language for implementing conversion logic.
 - **FastAPI**: For building the RESTful API for video file upload and conversion.
 - **Docker**: Containerizes the application for portable deployment.
@@ -15,6 +16,7 @@
 - **Celery**: For task queuing and handling background jobs asynchronously.
 
 ## **Core Features**:
+
 1. **Video Upload**: Users can upload video files via API or web interface.
 2. **Audio Extraction**: The system uses FFmpeg to extract audio from the video files in different formats.
 3. **File Management**: Stores converted audio files in a scalable storage solution.
@@ -23,9 +25,11 @@
 6. **Performance Optimizations**: Redis caching for faster access to frequently used resources and improved conversion speeds.
 
 ## **Deployment**:
+
 - **Docker**: The application is containerized for easy deployment across environments.
 - **Kubernetes**: Enables seamless scaling and management of microservices, ensuring the application can handle increased user requests.
 - **Cloud Storage**: Converted audio files can be stored in scalable cloud storage solutions like AWS S3 or Google Cloud Storage.
 
 ## **Objective**:
-The primary goal of **VEXAA** is to provide a scalable, efficient, and user-friendly platform for converting video files to audio files, making it easier for content creators, businesses, and individuals to extract audio for their projects.
+
+The primary goal of **VExAA** is to provide a scalable, efficient, and user-friendly platform for converting video files to audio files, making it easier for content creators, businesses, and individuals to extract audio for their projects.
