@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+ffmpeg-python
+celery
+redis
+psycopg2
+sqlalchemy
+python-dotenv
+pydantic
+docker
+kubernetes
