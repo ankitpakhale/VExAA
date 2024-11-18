@@ -1,5 +1,5 @@
 
-# **VEXAA – Video Extraction & Audio Assembly**
+# **VEXAA – Video EXtraction & Audio Assembly**
 
 ## **Project Overview**:
 **VEXAA** is a cloud-based solution designed for the extraction of audio from video files, enabling seamless video-to-audio conversion. This tool offers scalability, flexibility, and efficient deployment, allowing users to easily convert video files to audio formats for various applications such as podcasting, content creation, and archival purposes.
