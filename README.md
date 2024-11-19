@@ -6,14 +6,12 @@
 
 ## **Tech Stack**:
 
-- **Python**: Core programming language for implementing conversion logic.
-- **FastAPI**: For building the RESTful API for video file upload and conversion.
-- **Docker**: Containerizes the application for portable deployment.
-- **Kubernetes**: Manages scaling and orchestration of services.
-- **FFmpeg**: The primary tool used for video and audio conversion.
-- **PostgreSQL**: Database for storing metadata related to conversion tasks.
-- **Redis**: Caching layer to speed up frequently accessed data.
-- **Celery**: For task queuing and handling background jobs asynchronously.
+- **Python**: Core programming language for implementing conversion logic and backend development.
+- **Docker**: Containerization platform for packaging applications and dependencies into a standardized unit for development, testing, and deployment.
+- **Kubernetes**: Container orchestration system for automating application deployment, scaling, and management of containerized applications.
+- **Minikube**: Local Kubernetes environment for running and testing Kubernetes clusters on your local machine.
+- **K9S**: Terminal-based UI for managing Kubernetes clusters, providing an efficient way to interact with and monitor Kubernetes resources.
+- **MySQL**: Relational database management system used to store and manage application data.
 
 ## **Core Features**:
 

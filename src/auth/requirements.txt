@@ -1,0 +1,7 @@
+pylint
+jedi
+pyjwt
+flask
+flask_mysqldb
+wheel 
+setuptools
