@@ -1,8 +1,9 @@
-# BACKEND
 # Python cache files
 __pycache__/
 *.py[cod]
 *.pyo
+*.pyd
+*.pyc
 
 # Virtual environment
 env/
@@ -33,8 +34,73 @@ build/
 # MyPy
 .mypy_cache/
 
+# Ruff
+.ruff_cache/
+
 # Environment Variables
 .env
+.env.*
+
+# Coverage reports
+.coverage
+*.cover
+coverage.xml
+nosetests.xml
+*.hypothesis/
+
+# Unit test and code coverage
+*.log
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code settings (if not using a workspace file)
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# PyInstaller
+# For a standalone executable with PyInstaller,
+# To ignore the dist and build directories
+dist/
+build/
+*.spec
+
+# Flask and Django
+# Ignore migrations folder in Django projects
+migrations/
+*/migrations/
+
+# Other logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+*.orig
+*.rej
+*.~lock.*
+
+# Poetry
+poetry.lock
+__pypackages__/
+
+# Pipenv
+Pipfile.lock
+
+# SQL files
+*.sql
 
 # Other stuff
 *Guidelines.txt
