@@ -2,6 +2,6 @@ pylint
 jedi
 pyjwt
 flask
-flask_mysqldb
 wheel
 setuptools
+flask_mysqldb
