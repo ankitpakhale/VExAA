@@ -15,6 +15,11 @@ server.config["MySQL_DB"] = os.environ.get("MySQL_DB")
 server.config["MySQL_PORT"] = os.environ.get("MySQL_PORT")
 
 
+@server.route("/ping", methods=["GET"])
+def health_check():
+    return "PONG", 200
+
+
 @server.route("/login", methods=["POST"])
 def login():
     auth = request.authorization
@@ -42,7 +47,7 @@ def login():
         return "invalid credentials", 401
 
 
-@server.route("/validate", method=["POST"])
+@server.route("/validate", methods=["POST"])
 def validate():
     encoded_jwt = request.headers["Authorization"]
     if not encoded_jwt:
